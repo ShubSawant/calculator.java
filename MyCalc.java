@@ -25,7 +25,7 @@ b3=new Button("3");
 b4=new Button("4");
   b4.setBounds(50,270,50,50);
 b5=new Button("5");
-  b5.setBounds(120,270,50,50); 
+  b5.setBounds(120,270,50,80); 
 b6=new Button("6");
   b6.setBounds(190,270,50,50);
 b7=new Button("7");
@@ -264,3 +264,6 @@ if(e.getSource()==bclr){
        new MyCalc();  
    }
 }  
+
+// REFERENCES: 
+https://dev.to/rohitk570/creating-a-calculator-using-java-awt-16ll
